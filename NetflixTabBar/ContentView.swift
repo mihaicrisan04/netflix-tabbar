@@ -8,14 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var activeTabDetails: TabDetails = .apps
+//    @State private var allTabs: [Tab] = TabDetails.allCases.compactMap { tab ->}
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            Color(.darkGray)
+                .ignoresSafeArea()
+            
+            VStack {
+                Text("que pasa")
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                TabBar()
+            }
         }
-        .padding()
     }
 }
 
