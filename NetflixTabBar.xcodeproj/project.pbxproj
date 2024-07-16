@@ -14,6 +14,11 @@
 		B756E4D82C4586E90011CD6B /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = B756E4D72C4586E90011CD6B /* Tab.swift */; };
 		B756E4DB2C4587140011CD6B /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B756E4DA2C4587140011CD6B /* TabBar.swift */; };
 		B756E4DD2C458BAF0011CD6B /* TabItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B756E4DC2C458BAF0011CD6B /* TabItem.swift */; };
+		B7C4ED5B2C466CDE00291A71 /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C4ED5A2C466CDE00291A71 /* PhotosView.swift */; };
+		B7C4ED5D2C466D6B00291A71 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C4ED5C2C466D6B00291A71 /* ChatView.swift */; };
+		B7C4ED5F2C466D8600291A71 /* AppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C4ED5E2C466D8600291A71 /* AppsView.swift */; };
+		B7C4ED612C466DCB00291A71 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C4ED602C466DCB00291A71 /* NotificationsView.swift */; };
+		B7C4ED632C466DFF00291A71 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C4ED622C466DFF00291A71 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		B756E4D72C4586E90011CD6B /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		B756E4DA2C4587140011CD6B /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		B756E4DC2C458BAF0011CD6B /* TabItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItem.swift; sourceTree = "<group>"; };
+		B7C4ED5A2C466CDE00291A71 /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		B7C4ED5C2C466D6B00291A71 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		B7C4ED5E2C466D8600291A71 /* AppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsView.swift; sourceTree = "<group>"; };
+		B7C4ED602C466DCB00291A71 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		B7C4ED622C466DFF00291A71 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +67,11 @@
 		B756E4C72C4585780011CD6B /* NetflixTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				B756E4C82C4585780011CD6B /* NetflixTabBarApp.swift */,
 				B756E4D62C4586DD0011CD6B /* Model */,
 				B756E4D92C4586F00011CD6B /* Views */,
-				B756E4C82C4585780011CD6B /* NetflixTabBarApp.swift */,
 				B756E4CA2C4585780011CD6B /* ContentView.swift */,
+				B7C4ED592C466CC500291A71 /* Screens */,
 				B756E4CC2C4585790011CD6B /* Assets.xcassets */,
 				B756E4CE2C4585790011CD6B /* Preview Content */,
 			);
@@ -90,6 +101,18 @@
 				B756E4DC2C458BAF0011CD6B /* TabItem.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B7C4ED592C466CC500291A71 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B7C4ED5A2C466CDE00291A71 /* PhotosView.swift */,
+				B7C4ED5C2C466D6B00291A71 /* ChatView.swift */,
+				B7C4ED5E2C466D8600291A71 /* AppsView.swift */,
+				B7C4ED602C466DCB00291A71 /* NotificationsView.swift */,
+				B7C4ED622C466DFF00291A71 /* ProfileView.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,11 +185,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7C4ED5F2C466D8600291A71 /* AppsView.swift in Sources */,
 				B756E4D82C4586E90011CD6B /* Tab.swift in Sources */,
+				B7C4ED632C466DFF00291A71 /* ProfileView.swift in Sources */,
 				B756E4CB2C4585780011CD6B /* ContentView.swift in Sources */,
 				B756E4C92C4585780011CD6B /* NetflixTabBarApp.swift in Sources */,
 				B756E4DD2C458BAF0011CD6B /* TabItem.swift in Sources */,
+				B7C4ED5D2C466D6B00291A71 /* ChatView.swift in Sources */,
 				B756E4DB2C4587140011CD6B /* TabBar.swift in Sources */,
+				B7C4ED5B2C466CDE00291A71 /* PhotosView.swift in Sources */,
+				B7C4ED612C466DCB00291A71 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
