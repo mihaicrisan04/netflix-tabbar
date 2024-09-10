@@ -20,13 +20,13 @@ struct TabBar: View {
             TabItem(tabDetails: .profile, activeTabDetails: $activeTabDetails)
         }
         .frame(maxWidth: .infinity, maxHeight: 49)
-        .overlay(
-            Rectangle()
-                .frame(height: 1 / UIScreen.main.scale) // 1 pixel height
-                .foregroundColor(.gray),
-            alignment: .top
-        )
-        .background(.clear)
+//        .overlay(
+//            Rectangle()
+//                .frame(height: 1 / UIScreen.main.scale) // 1 pixel height
+//                .foregroundColor(.gray),
+//            alignment: .top
+//        )
+        .background(.ultraThinMaterial)
     }
 }
 

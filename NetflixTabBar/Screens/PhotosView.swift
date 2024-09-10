@@ -10,8 +10,10 @@ import SwiftUI
 struct PhotosView: View {
     var body: some View {
         NavigationStack {
-           Text("Photos View")
-                .navigationTitle("Photos")
+            ZStack {
+                Text("Photos View")
+                    .navigationTitle("Photos")
+            }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
     }

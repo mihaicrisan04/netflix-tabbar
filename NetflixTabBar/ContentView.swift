@@ -12,9 +12,9 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            // Background color
-            Color(.darkGray)
-                .ignoresSafeArea()
+            // Background colour
+//            Color(.thinMaterial)
+//                .ignoresSafeArea()
             
             // Actual screen
             VStack(spacing: 0) {
